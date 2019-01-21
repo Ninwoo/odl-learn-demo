@@ -49,11 +49,11 @@ mvn clean install -DskipTests
 
 编译前:
 
-![1548074656173](/home/ninwoo/.config/Typora/typora-user-images/1548074656173.png)
+![1548074656173.png](https://upload-images.jianshu.io/upload_images/15992600-9c38cb834cb81abd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 编译后:
 
-![1548074754196](/home/ninwoo/.config/Typora/typora-user-images/1548074754196.png)
+![1548074754196.png](https://upload-images.jianshu.io/upload_images/15992600-6f99000172d38eeb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 这里观察可以发现,重新编译之后,创建了:
 
@@ -235,7 +235,7 @@ public class HelloProvider {
 
 显然这里需要一种依赖注入(DI)技术,在ODL项目中,impl-blueprint.xml负责维护依赖.
 
-![1548079055494](/home/ninwoo/.config/Typora/typora-user-images/1548079055494.png)
+![1548079055494.png](https://upload-images.jianshu.io/upload_images/15992600-9c231ebc065f85ec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 首先,我们先看最原始的文件样式:
 
@@ -307,7 +307,7 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
 
 打开浏览器,打开[ApiDoc](http://127.0.0.1:8181/apidoc/explorer/index.html),账号密码默认均为`admin`
 
-![1548079882641](/home/ninwoo/.config/Typora/typora-user-images/1548079882641.png)
+![1548079882641.png](https://upload-images.jianshu.io/upload_images/15992600-0a3926fe2fb02d2e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 在input中输入:
 
@@ -321,6 +321,6 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
 
 点击Try out!
 
-![1548079953106](/home/ninwoo/.config/Typora/typora-user-images/1548079953106.png)
+![1548079953106.png](https://upload-images.jianshu.io/upload_images/15992600-6fa85cd2f9d4b20e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 如果显示上面结果,证明该RPC项目开发成功.
